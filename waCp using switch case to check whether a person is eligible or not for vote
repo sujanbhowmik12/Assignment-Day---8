@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+   printf(" enter a number:");
+   scanf(" %d", &age);
+   switch (age >= 18) {
+case 1:
+       printf("eligible");
+       break;
+   
+case 0:
+       printf(" not eligible");
+       break;
+default:
+       printf(" invalid put");
+       break;
+    
+}
+       return 0;
+}
